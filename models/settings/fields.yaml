@@ -4,12 +4,12 @@
 
 fields:
     show_showday:
-        label: Show snowday message
+        label: Show snow day message
         comment: When checked, a banner will be displayed at the top of the site
         type: checkbox
     snowday_message:
-        label: Showday message
-        commentAbove: This message will be shown at the top of the website in the snowday banner
+        label: Snow day message
+        commentAbove: This message will be shown at the top of the website in the snow day banner
         type: richeditor
         toolbarButtons: bold|italic|underline|strikeThrough|insertLink
         cssClass: field-indent
