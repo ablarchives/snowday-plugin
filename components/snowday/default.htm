@@ -1,3 +1,5 @@
-<div id="snowdayBanner">
-  {{snowday.message|raw}}
-</div>
+{% if snowday.snowday %}
+  <div id="snowdayBanner">
+    {{snowday.message|raw}}
+  </div>
+{% endif %}

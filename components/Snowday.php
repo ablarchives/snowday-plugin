@@ -18,10 +18,13 @@ class Snowday extends ComponentBase
         return [];
     }
 
+    public function snowday()
+    {
+        return Settings::get('snowday_message');
+    }
+
     public function message()
     {
-        if($settings = Settings::get('show_showday')){
-            return Settings::get('snowday_message');
-        }
+        return Settings::get('snowday_message');
     }
 }
