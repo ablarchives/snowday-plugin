@@ -65,6 +65,22 @@ class Plugin extends PluginBase
     }
 
     /**
+     * Register permissions
+     *
+     * @return array
+     */
+    public function registerPermissions()
+    {
+        return [
+            'albrightlabs.snowday.access_settings' => [
+                'label' => 'Access banner settings',
+                'tab' => 'Snowday',
+                'order' => 200,
+            ],
+        ];
+    }
+
+    /**
      * Register components
      *
      * @return array
