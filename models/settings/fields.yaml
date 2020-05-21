@@ -10,7 +10,8 @@ fields:
     snowday_message:
         label: Showday message
         commentAbove: This message will be shown at the top of the website in the snowday banner
-        type: text
+        type: richeditor
+        toolbarButtons: bold|italic|underline|strikeThrough|insertLink
         cssClass: field-indent
         trigger:
             field: show_showday
