@@ -16,8 +16,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Snowday',
-            'description' => 'Adds a snowday banner to the top of the website.',
+            'name'        => 'Snow Day',
+            'description' => 'Adds a snow day banner to the top of the website.',
             'author'      => 'Albright Labs',
             'icon'        => 'icon-leaf'
         ];
@@ -52,8 +52,8 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label'       => 'Snowday Banner',
-                'description' => 'Show, hide, and manage the snowday banner.',
+                'label'       => 'Snow Day Banner',
+                'description' => 'Show, hide, and manage the snow day banner.',
                 'category'    => 'system::lang.system.categories.cms',
                 'icon'        => 'icon-comment',
                 'class'       => 'Albrightlabs\Snowday\Models\Settings',
@@ -74,7 +74,7 @@ class Plugin extends PluginBase
         return [
             'albrightlabs.snowday.access_settings' => [
                 'label' => 'Access banner settings',
-                'tab' => 'Snowday',
+                'tab' => 'Snow Day',
                 'order' => 200,
             ],
         ];
